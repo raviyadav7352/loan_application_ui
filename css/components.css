@@ -1,0 +1,71 @@
+/* form input - start */
+.nf-form-control {
+    height: 58px;
+    width: 100%;
+    border-radius: 60px;
+    font-size: 1.25rem;
+    color: var(--color-theme);
+    border: 1px solid var(--color-theme);
+    background-color: var(--body-bg);
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+.nf-form-control:focus {
+    outline-color: var(--color-theme);
+}
+
+.nf-form-label {
+    position: absolute;
+    color: var(--color-theme);
+    background-color: var(--body-bg);
+    padding-inline: 5px 10px;
+    left: 26px;
+    top: -8px;
+    font-size: 12px;
+}
+
+.nf-form-group {
+    position: relative;
+}
+
+.nf-form-landing {
+    width: clamp(200px, 100%, 600px);
+    margin-top: 45px;
+}
+.nf-form-control[disabled] {
+    border-color: #F2F2F2;
+    pointer-events: none;
+}
+
+.nf-form-control[disabled] + .nf-form-label {
+    color: var(--color-seconary);
+}
+/* form input - end */
+
+/* button - start*/
+.nf-btn {
+    height: 60px;
+    border-radius: 60px;
+    font-size: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    min-width: 185px;
+    padding: 0 30px;
+}
+
+.nf-btn-primary {
+    background-color: var(--color-theme);
+    color: #fff;
+    border: 1px solid var(--color-theme);
+}
+
+.nf-btn[disabled] {
+    background: #F8F8F8;
+    border: 1px solid #F2F2F2;
+    color: #DFDBDB;
+    pointer-events: none;
+}
+/* button - end*/

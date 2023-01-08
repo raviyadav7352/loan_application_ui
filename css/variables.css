@@ -1,0 +1,36 @@
+:root {
+    --body-bg: #fff;
+    --main-bg: #EFF7FE;
+
+    --color-body: #000;
+    --color-title: #072D64;
+    --color-subtitle: #333;
+
+    --color-seconary: #777;
+    --color-tertiary: #555;
+    --color-gray: #CCC;
+    --color-info: #909090;
+    --color-track: #D9D9D9;
+    
+    --color-success: #0DA063;
+    --color-failed: #DB5959;
+    --color-failed-rgb: 210,89,89;
+
+    --bg-completed:#0DA063;
+    --bg-skipped:#F47820;
+
+
+    --color-theme: #0A4598; 
+}
+
+.color-gray  {
+    color: var(--color-gray);
+}
+.color-title {
+    color: var(--color-title);
+}
+
+.color-subtitle {
+    color: var(--color-subtitle);
+}
+.color-theme{color: var(--color-theme);}

@@ -1,0 +1,5 @@
+for active user add class "active"
+for completed user add class "completed"
+for skipped user add class "skipped"
+demo- <div class="nf-nav-item  completed">
+
