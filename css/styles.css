@@ -3,6 +3,7 @@ body {
 }
 .nf-wrapper {
     height: 100vh;
+    max-height:-webkit-fill-available;
 }
 .design {
     position: absolute;
